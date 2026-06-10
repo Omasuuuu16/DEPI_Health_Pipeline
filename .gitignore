@@ -18,8 +18,7 @@ health_pipeline/dbt_packages/
 # Secrets
 profiles.yml
 
-# Data files (optional if dataset is large)
-*.csv
+
 
 # OS files
 Thumbs.db
