@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: Raw
+    schema: Raw
+    tables:
+      - name: student_health

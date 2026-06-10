@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# dbt
+health_pipeline/target/
+health_pipeline/logs/
+health_pipeline/dbt_packages/
+
+# VS Code
+.vscode/
+
+# Secrets
+profiles.yml
+
+# Data files (optional if dataset is large)
+*.csv
+
+# OS files
+Thumbs.db
+.DS_Storesql/DEPI_Health_full.sql 
+sql/DEPI_Health_full.sql 
+logs/ 
+target/ 
+dbt_packages/ 

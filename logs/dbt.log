@@ -1,0 +1,153 @@
+[0m16:02:48.349995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A6AF30D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A6C00BF70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A6C00BD90>]}
+
+
+============================== 16:02:48.356232 | 60ba0fd9-fbea-4aba-b76a-1537e77399d4 ==============================
+[0m16:02:48.356232 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:02:48.357245 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'target_path': 'None', 'no_print': 'None', 'log_format': 'default', 'cache_selected_only': 'False', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'invocation_command': 'dbt init health_pipeline', 'printer_width': '80', 'write_json': 'True'}
+[0m16:02:48.414082 [debug] [MainThread]: Starter project path: C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m16:02:48.504856 [info ] [MainThread]: 
+Your new dbt project "health_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:02:48.505859 [info ] [MainThread]: Setting up your profile.
+[0m16:03:02.450412 [debug] [MainThread]: Command `dbt init` succeeded at 16:03:02.450412 after 14.24 seconds
+[0m16:03:02.451658 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A6AF30D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A6C115510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A6C00BD30>]}
+[0m16:03:02.451658 [debug] [MainThread]: Flushing usage events
+[0m16:03:03.295640 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:34:55.410066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D589305E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D599EADD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D599EAFB0>]}
+
+
+============================== 16:34:55.454370 | b0c378d7-4d00-4240-9a7e-e9c726feeecf ==============================
+[0m16:34:55.454370 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:34:55.455346 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'log_format': 'default', 'use_colors': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'invocation_command': 'dbt debug', 'printer_width': '80', 'write_json': 'True'}
+[0m16:34:55.515653 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:34:55.516663 [info ] [MainThread]: python version: 3.10.0
+[0m16:34:55.516663 [info ] [MainThread]: python path: C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\python.exe
+[0m16:34:55.517663 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m16:34:55.522682 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlserver'
+[0m16:34:55.523665 [info ] [MainThread]: Using profiles dir at C:\Users\Lenovo\.dbt
+[0m16:34:55.525685 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo\.dbt\profiles.yml
+[0m16:34:55.526663 [info ] [MainThread]: Using dbt_project.yml file at D:\DEPI\DEPI_Final_Project\dbt_project.yml
+[0m16:34:55.526663 [info ] [MainThread]: Configuration:
+[0m16:34:55.527664 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:34:55.527664 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:34:55.528684 [info ] [MainThread]: Required dependencies:
+[0m16:34:55.528684 [debug] [MainThread]: Executing "git --help"
+[0m16:34:55.580600 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:34:55.581613 [debug] [MainThread]: STDERR: "b''"
+[0m16:34:55.581613 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:34:55.582630 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:34:55.583635 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:34:55.584632 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "health_pipeline", target "dev" invalid: Runtime Error
+    Could not find adapter type sqlserver!
+
+
+[0m16:34:55.585629 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\DEPI\DEPI_Final_Project\dbt_project.yml> not found
+
+[0m16:34:55.586645 [debug] [MainThread]: Command `dbt debug` failed at 16:34:55.586645 after 0.28 seconds
+[0m16:34:55.623487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D589305E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D592B0670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D599EF880>]}
+[0m16:34:55.625285 [debug] [MainThread]: Flushing usage events
+[0m16:34:56.342765 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:46:51.006040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E271E0E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E282BFBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E282BFEB0>]}
+
+
+============================== 17:46:51.327238 | 21d4d8d9-32a7-474e-b6a4-907fd1501538 ==============================
+[0m17:46:51.327238 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:46:51.329238 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'printer_width': '80', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m17:46:51.398815 [info ] [MainThread]: dbt version: 1.11.7
+[0m17:46:51.400822 [info ] [MainThread]: python version: 3.10.0
+[0m17:46:51.402815 [info ] [MainThread]: python path: C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:46:51.403815 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m17:46:52.088737 [info ] [MainThread]: Using profiles dir at C:\Users\Lenovo\.dbt
+[0m17:46:52.090768 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo\.dbt\profiles.yml
+[0m17:46:52.092752 [info ] [MainThread]: Using dbt_project.yml file at D:\DEPI\DEPI_Final_Project\dbt_project.yml
+[0m17:46:52.093757 [info ] [MainThread]: adapter type: sqlserver
+[0m17:46:52.094754 [info ] [MainThread]: adapter version: 1.10.0
+[0m17:46:52.095825 [info ] [MainThread]: Configuration:
+[0m17:46:52.096952 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:46:52.098085 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:46:52.099224 [info ] [MainThread]: Required dependencies:
+[0m17:46:52.100688 [debug] [MainThread]: Executing "git --help"
+[0m17:46:52.196304 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:46:52.228855 [debug] [MainThread]: STDERR: "b''"
+[0m17:46:52.230374 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:46:52.231013 [info ] [MainThread]: Connection:
+[0m17:46:52.233114 [info ] [MainThread]:   server: DESKTOP-F1R3U39
+[0m17:46:52.234113 [info ] [MainThread]:   port: 1433
+[0m17:46:52.236383 [info ] [MainThread]:   database: DEPI_Health
+[0m17:46:52.237475 [info ] [MainThread]:   schema: Transformed
+[0m17:46:52.238613 [info ] [MainThread]:   UID: None
+[0m17:46:52.239780 [info ] [MainThread]:   authentication: sql
+[0m17:46:52.240825 [info ] [MainThread]:   retries: 3
+[0m17:46:52.241836 [info ] [MainThread]:   login_timeout: 0
+[0m17:46:52.242816 [info ] [MainThread]:   query_timeout: 0
+[0m17:46:52.243915 [info ] [MainThread]:   trace_flag: False
+[0m17:46:52.244966 [info ] [MainThread]:   encrypt: True
+[0m17:46:52.246002 [info ] [MainThread]:   trust_cert: False
+[0m17:46:52.247985 [info ] [MainThread]: Registered adapter: sqlserver=1.10.0
+[0m17:46:53.455685 [warn ] [MainThread]: [[33mWARNING[0m]: When True, uses SQL Server-native string type mappings: STRING -> VARCHAR(MAX), NCHAR -> NCHAR(1), NVARCHAR -> NVARCHAR(4000). When False (default), preserves legacy mappings: STRING and NVARCHAR -> VARCHAR(8000), NCHAR -> CHAR(1). The new behaviour is intended to become the default in a future release.
+You may opt into the new behavior sooner by setting `flags.dbt_sqlserver_use_native_string_types` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m17:46:53.458055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': '21d4d8d9-32a7-474e-b6a4-907fd1501538', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E28741D50>]}
+[0m17:46:53.460345 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m17:46:53.461402 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m17:46:53.462457 [debug] [MainThread]: On debug: select 1 as id
+[0m17:46:53.463451 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:46:53.464446 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-F1R3U39,1433;Database=DEPI_Health;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={None};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:47:09.393648 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+3 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.\r\n (10061) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (10061)')
+[0m17:47:10.408648 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-F1R3U39,1433;Database=DEPI_Health;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={None};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:47:26.232398 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+2 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.\r\n (10061) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (10061)')
+[0m17:47:27.235206 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-F1R3U39,1433;Database=DEPI_Health;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={None};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:47:43.047036 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+1 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.\r\n (10061) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (10061)')
+[0m17:47:44.057469 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-F1R3U39,1433;Database=DEPI_Health;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;UID={None};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.10.0;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:47:59.874183 [debug] [MainThread]: sqlserver adapter: Error running SQL: select 1 as id
+[0m17:47:59.875174 [debug] [MainThread]: sqlserver adapter: Rolling back transaction.
+[0m17:47:59.875174 [debug] [MainThread]: On debug: No close available on handle
+[0m17:47:59.876472 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:47:59.877474 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:47:59.879637 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\DEPI\DEPI_Final_Project\dbt_project.yml> not found
+
+[0m17:47:59.881290 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.\r\n (10061) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (10061)')
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:47:59.884958 [debug] [MainThread]: Command `dbt debug` failed at 17:47:59.884299 after 69.16 seconds
+[0m17:47:59.886110 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:47:59.888154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E271E0E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E28740BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E28741D20>]}
+[0m17:47:59.889162 [debug] [MainThread]: Flushing usage events
+[0m17:48:01.689631 [debug] [MainThread]: An error was encountered while trying to flush usage events
